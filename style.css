@@ -258,3 +258,24 @@ footer {
     padding: 6px;
   }
 }
+
+.education p {
+  margin: 0.5rem 0;
+}
+
+.certificates ul {
+  margin-top: 0.5rem;   
+  margin-left: 0;       
+  padding-left: 0;      
+  list-style-position: inside; 
+}
+
+.certificates li {
+  padding: 4px 0;      
+}
+
+.awards ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* jarak antar bullet */
+}
